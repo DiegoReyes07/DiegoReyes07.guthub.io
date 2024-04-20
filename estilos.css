@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+     margin: 16px;
+     padding: 0%;
+     box-sizing: border-box;
+     text-decoration: none;
+}
+
+html{ 
+     font-family: Jersey 10 Charted;
+
+}
+.container{
+    widows: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.container h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.container p{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 10px;
+    margin: 20px;
+    margin-right: 10px;
+}
+
+#img0, #img00{
+    border-radius: 10%;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+}
+
+#img0{
+    float: right;
+}
+
+#img00{
+    float: left;
+}
+
+@media (max-witgh: 414){
+    #img0, #img00{
+        float: none;
+       width: 250px;
+       height: 150px;
+       align-items: center;
+    }
+    .container p{
+        font-size: 18px;
+    }
+}
+
+#img9,#img99{
+    border-radius: 10%;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+}
+
+#img9{
+    float: left;
+}
+
+#img99{
+    float: right;
+}
+
+@media (max-witgh: 414){
+    #img9, #img99{
+        float: none;
+       width: 250px;
+       height: 150px;
+       align-items: center;
+    }
+    .container p{
+        font-size: 18px;
+    }
+}
+
+.resulucion{
+    width: 99&;
+    text-align: center;
+}
+/**movil*/
+@media (max-width: 767px){
+    .desktop
+    {display: none;}
+    .tablet
+    {display: none;}
+
+}
+/**tablet**/
+@media (max-width: 767px) and (max-width: 990px){
+.desktop{
+    display: none;}
+.movil{
+    display: none;}
+}
+/**Escritorio**/
+@media (max-width: 990px){
+.tablet {
+    display: none;}
+.movil {
+    display: none;}
+}
